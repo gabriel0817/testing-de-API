@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - cupcakes- bella bel</title>
+    <link rel="stylesheet" href="styles_regsitro.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Regístrate en cupcakes bella bel</h1>
+        <p>Crea una cuenta para disfrutar de nuestros productos</p>
+        <form action="procesar_registro.php" method="post">
+            <div class="input-container">
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+            </div>
+            <div class="input-container">
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            </div>
+            <div class="input-container">
+                <input type="password" id="contraseña" name="contraseña" placeholder="Crea una contraseña" required>
+            </div>
+            <div class="input-container">
+                <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" placeholder="Confirma tu contraseña" required>
+            </div>
+            <button type="submit" class="btn-login">Registrar</button>
+        </form>
+        <p>¿Ya tienes una cuenta? <a href="inicio_de_sesion.html">Inicia sesión aquí</a></p>
+    </div>
+</body>
+</html>
